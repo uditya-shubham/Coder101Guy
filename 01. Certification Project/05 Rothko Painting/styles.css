@@ -1,0 +1,25 @@
+.container{
+
+    width: 40vw;
+    height: 100vh;
+    border: 5em solid black;
+    margin: 10em auto;
+    
+}
+.box{
+    box-sizing: border-box;
+    margin:6em auto;
+    width: 30vw;
+    height: 80vh;
+    padding: 2em;
+    background-color: brown;
+}
+
+.one{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    width: 25vw;
+    height: 10vh;
+    
+
+}
