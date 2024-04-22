@@ -1,30 +1,31 @@
 .container{
 
     width: 40vw;
-    height: 90vh;
+    height: 100vh;
     border: 5em solid black;
     margin: 10em auto;
     /* box-sizing: border-box; */
-    
 }
+
 .box{
     box-sizing: border-box;
     margin:6em auto;
     width: 30vw;
     height: 70vh;
-    padding: 2em;
+    padding: 5%;
     background-color: brown;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* align-items: center; */
 }
 
 .first{
     /* display: block; */
     background-color: #efb762;;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     width: 25vw;
-    height: 22vh;
+    height: 20vh;
     /* margin-bottom: em; */
     border-radius:  0.5em;
     margin: auto;
@@ -36,10 +37,10 @@
     /* margin-top: 5 em; */
     margin: auto;
     background-color: #8f0401;;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     border-radius: 0.5em;
     width: 25vw;
-    height: 22vh;
+    height: 20vh;
     /* margin-bottom: 5 em; */
 
 }
@@ -57,7 +58,7 @@
     background-color: #b20403;;
     /* box-sizing: border-box; */
     width: 25vw;
-    height: 22vh;
+    height: 20vh;
     /* margin-bottom: 5 em; */
 
 }
