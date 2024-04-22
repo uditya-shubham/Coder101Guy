@@ -1,25 +1,63 @@
 .container{
 
     width: 40vw;
-    height: 100vh;
+    height: 90vh;
     border: 5em solid black;
     margin: 10em auto;
+    /* box-sizing: border-box; */
     
 }
 .box{
     box-sizing: border-box;
     margin:6em auto;
     width: 30vw;
-    height: 80vh;
+    height: 70vh;
     padding: 2em;
     background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.one{
-    background-color: antiquewhite;
-    box-sizing: border-box;
+.first{
+    /* display: block; */
+    background-color: #efb762;;
+    /* box-sizing: border-box; */
     width: 25vw;
-    height: 10vh;
-    
+    height: 22vh;
+    /* margin-bottom: em; */
+    border-radius:  0.5em;
+    margin: auto;
+
+}
+
+.second{
+    /* display: block; */
+    /* margin-top: 5 em; */
+    margin: auto;
+    background-color: #8f0401;;
+    /* box-sizing: border-box; */
+    border-radius: 0.5em;
+    width: 25vw;
+    height: 22vh;
+    /* margin-bottom: 5 em; */
+
+}
+
+
+.third{
+    /* display: block; */
+    /* margin-top: 5 em; */
+    margin: auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 1em;
+
+    background-color: #b20403;;
+    /* box-sizing: border-box; */
+    width: 25vw;
+    height: 22vh;
+    /* margin-bottom: 5 em; */
 
 }
