@@ -1,0 +1,12 @@
+#title , #para,h2,a{
+    text-align: center;
+}
+#image{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+body{
+    background-color: rgb(175, 168, 168);
+}
